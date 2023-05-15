@@ -1,281 +1,370 @@
 body{
-	background-image: url(../Illustrations/Bathome1.png); 
-	margin:0;
+	background-color: black;
+	font-family: Rajdhani, sans-cherif;
+	margin: 0;
+	padding: 0;
+	margin-right: -220px;
+	border: 2px solid grey;
+	border-top: none;
+	border-bottom: none;
+	
+}
+
+/* header */
+
+header{
+	background-image: url(../Illustrations/Bathome1.png)
+    
+}
+nav {
+	text-decoration: none;
+}
+
+/* header-section-header */
+
+.section-header{
+	border: 1px solid grey;
+	border-width: 2px 2px 2px 2px;
+	padding: 50px;
+	width: 1100px;
+	height: 100px;
+	margin-left: 100px;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+}
+.logohome{
+	margin-top: -50px;
+}
+.home {
+	margin-left: 1000px;
+	margin-bottom: -90px;
+	text-decoration: none;
+	color: white;
+	text-decoration: underline;
+}
+/* header-section-header */
+
+/* header-section-nav */
+
+.section-nav{
+	text-align: center;
+	margin-left: 1130px;
+	flex-direction: column;
+	position: fixed;
+	text-decoration: none;
 
 }
+
+/* header-section-nav */
+
+/* header-section-intro */
+.section-intro{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin-top: 120px;
+}
+.Batman{
+	font-size: 25px;
+}
+
+/* header-section-intro */
+
+/* header-section-boutton */
+
+.section-intro-button{
+	text-align: center;
+	font-size: 15px;
+	color: grey;
+	opacity: 0.5;
 }
 nav ul li{
-	display:inline-block;
-}
-li a{
-	margin-left: 900px;
 	color: white;
-	vertical-align:0;
-	margin-top: 100px;
-}
-.item1{
-	text-align: center;
-	color: white;
-	font-family: Rajdhani, sans-cherif;
-	margin-top: 310px;
-}
-.item2{
-	text-align: center;
-	font-weight: bold;
-	font-size: 20px;
-}
-/* bouton1 */
-button{
-	display: inline;
-	margin-right: 10px;
-	width: 200px;
-	background: gray;
-	opacity: 0.5;
-	border: none;
+	text-decoration: 0; 
 
+}
+button{
+	background-image: linear-gradient(80deg,#eddebf,#890008);
+	width: 200px;
+	height: 50px;
+	text-decoration: 0;
 }
 button:hover{
 	box-shadow: 0 4px 8px 0;
-	color: red;
+	color: white;
 
 }
-.hero{
-	font-family: Rajdhani, sans-cherif;
+/* header-section-boutton */
+
+/* header-section-flèche */
+.section-flèche{
+	text-align: center;
+	margin-top: 250px;
+}
+/* header-section-flèche */
+
+/* header */ 
+
+/* main */
+
+/*section-1 */
+
+.section-1{
+	color: white;
+	text-align: justify;
+	padding-right: 50px;
+	margin-right: 400px;
+	margin-left: 200px;
+
+}
+/*section-1 */
+
+/*section-2 */
+.section-2{
+	display: inline-flex;
+    margin-left: 150px;
+
+}
+/*section-2 */
+
+/*section-3 */
+.section-3 nav li{
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+.bathome13{
+	margin-left: 100px;
+}
+.nemisis{
+	margin-top: -100px; 
+	margin-left: 155px;
+	text-decoration: 0;
+	color: white;
+}
+.batman-ennemis{
+	color: white;
+	margin-right: 400px;
+	margin-left: 200px;
+	font-size: 20px;
+}
+.image-ennelis{
+	display: inline-flex;
+    margin-left: 150px;
+    font-size: 25px;
+
+}
+
+/*section-3 */
+
+/*section-4 */
+.bathome-12{
+	float: right;
+}
+
+/*section-4 */
+
+/*section-5 */
+.section-5{
+	color: white;
+	margin-top: 300px;
+	margin-right: 400px;
+	margin-left: 200px;
+}
+.image-allies{
+	display: inline-flex;
+	margin-left: -50px;
+	margin-top: 25px;
+}
+figcaption{
+	color: white;
+	text-align: center;
+	
+}
+/*section-5 */
+
+/*section-6 */
+.section-6{
+	color: white;
+	margin-right: 400px;
+	margin-left: 200px;	
+
+}
+.justice-leage-img{
+	margin-top: 100px;
+	margin-left: -300px;
+}
+/*section-6 */
+
+/*section-7 */
+.section-7{
+	color: white;
+	margin-right: 400px;
+	margin-left: 200px;	
+
+}
+.flèche-droite{
+	margin-left: 900px;
+	margin-top: -200px;
+	margin-bottom: 20px;
+
+}
+.flèche-gauche{
+	margin-top: 200px;
+
+}
+.batman-begin-img{
+	margin-top: -200px;
+	margin-left: 200px;
+}
+.action-aventure{
+	width: 400px;
+    height: 230px;
+    background-color: gray;
+    margin-left: 355px;
+    margin-top: -250px;
+    opacity: 0.6;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-align: justify;	
+}
+.action{
+	margin-left: -10px;
+}
+
+/*section-7 */
+
+/*section-8 */
+.section-8{
+	margin-top: 100px;
+	text-align: center;
+}
+
+/*section-8 */
+
+/*section-9*/
+.section-9{
+	background-color: grey;
+	opacity: 0.7;
+	margin-top: 100px;
+	color: white;
+}
+/*sous-section-1*/
+.prenon-contact{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+.adress-mail{
+	margin-left: 400px;
+}
+.soulignement{
+	width: 400px;
+	height: 3px;
+}
+.input-mail{
+	width: 590px;
+	background-color: grey;
+}
+/*sous-section-1*/
+/*sous-section-2*/
+.sous-section-2{
+	margin-left: 400px;
+}
+.nouveau-lettre{
+	font-size: 30px;
+	margin-top: 90px;
+}
+/*sous-section-2*/
+/*sous-section-3*/
+.sous-section-3{
+	margin-left: 400px;
+}
+
+/*sous-section-3*/
+/*sous-section-4*/
+.sous-section-4{
+	margin-left: 400px;
+}
+.soulignement-choix button span{
+	width: 100px;
+	height: 25px;
+
+}
+.choix {
+	text-decoration: none;
+	text-align: center;
+	width: 100px;
+	height: 10px;
+	display: inline-flex;
+
+}
+/*sous-section-4*/
+/*sous-section-5*/
+.sous-section-5{
+	margin-left: 400px;
+
+}
+.soulignement-message{
+	width: 400px;
+	height: 3px;
+	color: white; 
+}
+
+/*sous-section-5*/
+/*sous-section-6*/
+.sous-section-6{
+	text-align: center;
+}
+.ajustement{
+	margin-top: 200px;
+	color: grey;
+}
+
+/*sous-section-6*/
+/*section-9*/
+
+/*footer */
+footer{
+	background-color: black;
+	margin-top: 200px;
+}
+.dernier-commentaire{
 	text-align: center;
 	color: white;
-	padding:20px;
+	font-size: 10px;
+}
+.guillement-1{
+	margin-left: 100px;
+}
+.guilliement-2{
+	margin-left: 1200px;
+
+}
+.loges-WB{
+	color: white;
+}
+.fin-projet{
+	margin-left: 500px;
+}
+.icon-WB{
+	margin-left: 450px;
+	margin-bottom: -50px;
+}
+.dernier-logos{
+	text-decoration: none;
+	margin-bottom: -300px;
+	display: inline-flex; 
 	margin-left: 500px;
 
 }
-.advesaire{
-	padding: 20px;
-	color: white;
-}
-section{
-display: block;
-}
-.réseaux{
-	text-align: center;
-	margin-left: 1120px;
-	line-height: 50px;
-	flex-direction: column;
-	position: fixed;
-
-}
-ul li {
-	list-style-type: none;
-
-}
-.item3{
-	background-color: black;	
-}
-.flèchebas{
-	margin-left: 675px;
-	margin-top: 150px;
-
-}
-.image0{
-	margin-top: 50px;
-}
-.bordure0{
-	border : 0.5px solid;
-    border-width: 2px;
-    border-color: gray;
-    opacity: 0.5;
-    margin:50px;
-    height: 150px; 
-
-}
-.itemI{
-	color: white;
-	margin-left: 150px;
-}
-.texta{
-	margin-right: 250px;
-}
-/* bathome234*/
-.image1{
-	display: inline-flex;
-
-}
-.bathome3{
-	margin-left: 50px;
-}
-.bathome4{
-	margin-left: 50px;
-}
-.sous-titre1{
-	display: inline-flex;
-}
-.robert{
-	margin-left: 50px;
-	text-align: center;
-}
-.christian{
-	margin-left: 250px;
-	text-align: center;
-}
-.ben{
-	margin-left: 150px;
-	text-align: center;
-}
-.sectionII{
-	list-style-type: none;
-	display: inline;
-}
-.fly{
-	margin-top: 50px;
-	width: 150px; 
-	display: inline;
-	margin-left: -100px;
-
-}
-.test ul{
-	display: inline;
-	
-}
-.némésis{
-	display: inline;
-	margin-right: -30px;
-	font-size: 30px;
-}
-/* bathome567 */
-.bathome567{
-	display: inline-flex;
-}
-.text2{
-	margin-right: 250px;
-}
-.bathome6{
-	margin-left: 50px;
-}
-.bathome7{
-	margin-left: 50px;
-}
-.sous-titre1{
-	display: inline-flex;
-}
-.riddler{
-	margin-left: 50px;
-	text-align: center;
-}
-.joker{
-	margin-left: 150px;
-	text-align: center;
-
-}
-.darkeseid{
-	margin-left: 150px;
-	text-align: center;
-}
-.sectionIII{
-	background-color: black;
-}
-.bathome12{
-	float: right;
-
-}
-.alliée{
-	margin-right: 300px;
-	margin-top: 300px;
-}
-.alliées{
-	font-size: 30px;
-}
-/* saison2 */
-
-.saison2{
-	display: inline-flex;
-}
-.bathome8{
-	margin-left: 50px;
-}
-.bathome10{
-	margin-left: 50px; 
-}
-.alfred{
-	margin-left: -500px;
-	text-align: center;
-}
-.catwoman{
-	margin-left: 200px;
-	margin-top: -70px;
-	text-align: center;
-}
-.james{
-	margin-left: 800px;
-	margin-top: -70px;
-	text-align: left; 
-}
-.gordon{
-	margin-left: 860px;
-	margin-top: -40px;
-}
-.date1{
-	margin-left: 815px;
-	margin-top: -15px;
-}
-.terre{
-	margin-right: 250px;
-}
-/* justice */
-.saison3{
-	background:black;
-}
-.justice{
-	margin-bottom: 50px;
-	margin-top: 70px;
-	font-size: 25px;
-}
-.bathome11{
-	width: 1200px;
-	margin-top: 50px;
-	margin-left: -100px;
-
-}
-.flèche1{
-	margin-top: 220px;
-	margin-left: 1000px;
-}
-.begin{
-	margin-bottom: -300px;
-	margin-left: 250px;
-
-}
-.flèche2{
-	float: left;
-	margin-top: 230px;
-
-}
-.média{
-	font-size: 25px;
-}
-.rectangle{
-	margin-bottom: -300px;
-	width: 200px;
-	height: 100px;
-}
-.rectangle p h3{
-	margin-top: 05px;
-}
-.begins{
-	margin-bottom: 30px;
-	padding-left: 10px;
-}
-.action{
-	margin-bottom: -40px;
-	padding-left: 10px;
-}
-.jeune{
-	padding-left: 10px;
-}
-.ba2{
-	margin-top: 150px;
-}
-/* contact */
-
-.new{
-	font-size: 20px;
+.rond{
+	color: blue;
 }
 
-/* contact */
+/*footer */
+
+
+
+
