@@ -3,17 +3,23 @@ body{
 	font-family: Rajdhani, sans-cherif;
 	margin: 0;
 	padding: 0;
-	margin-right: -220px;
-	border: 2px solid grey;
+	margin-right: 0;
+	margin-left: 0;
 	border-top: none;
 	border-bottom: none;
+	width: 1400px;
+	overflow-x: none;
+	
 	
 }
 
 /* header */
 
 header{
-	background-image: url(../Illustrations/Bathome1.png)
+	background-image: url(../Illustrations/Bathome1.png);
+	background-position: top center;
+	background-size: cover; 
+	border-width: 50px;
     
 }
 nav {
@@ -78,6 +84,7 @@ nav {
 	font-size: 15px;
 	color: grey;
 	opacity: 0.5;
+	border-style: none;
 }
 nav ul li{
 	color: white;
@@ -89,6 +96,7 @@ button{
 	width: 200px;
 	height: 50px;
 	text-decoration: 0;
+	border-style: none;
 }
 button:hover{
 	box-shadow: 0 4px 8px 0;
@@ -256,8 +264,26 @@ figcaption{
 	font-size: 30px;
 	color: white;
 }
+.adress-mail .from input[type='mail']{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom: grey;
+	width: 80%;
+	background-color: transparent;
+
+
+}
 .adress-mail{
 	margin-left: 400px;
+	background-color: transparent;border-top: none;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom: grey;
+	width: 80%;
+
 }
 .soulignement{
 	width: 400px;
@@ -298,12 +324,13 @@ figcaption{
 	width: 100px;
 	height: 10px;
 	display: inline-flex;
+	justify-content: space-between;
 
 }
 /*sous-section-4*/
 /*sous-section-5*/
 .sous-section-5{
-	margin-left: 400px;
+	margin-left: 5px;
 
 }
 .soulignement-message{
