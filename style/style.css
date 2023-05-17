@@ -1,5 +1,6 @@
 body{
 	background-color: black;
+	background-position: fixed;
 	font-family: Rajdhani, sans-cherif;
 	margin: 0;
 	padding: 0;
@@ -8,15 +9,18 @@ body{
 	border-top: none;
 	border-bottom: none;
 	width: 1400px;
-	overflow-x: none;
 	
 	
+}
+main{
+	border: 10px;
+	border-color: red;
 }
 
 /* header */
 
 header{
-	background-image: url(../Illustrations/Bathome1.png);
+	background-color: black;
 	background-position: top center;
 	background-size: cover; 
 	border-width: 50px;
@@ -24,6 +28,10 @@ header{
 }
 nav {
 	text-decoration: none;
+}
+.nouveau-section{
+	background-image: url(../Illustrations/Bathome1.png);
+	background-repeat: no-repeat;
 }
 
 /* header-section-header */
@@ -35,9 +43,8 @@ nav {
 	width: 1100px;
 	height: 100px;
 	margin-left: 100px;
-	color: white;
 	display: inline-block;
-	text-decoration: none;
+	list-style-type : none;
 }
 .logohome{
 	margin-top: -50px;
@@ -69,7 +76,10 @@ nav {
 	text-align: center;
 	color: white;
 	font-size: 20px;
-	margin-top: 120px;
+	padding-top: 300px;
+}
+.lettre-intro{
+
 }
 .Batman{
 	font-size: 25px;
@@ -85,6 +95,7 @@ nav {
 	color: grey;
 	opacity: 0.5;
 	border-style: none;
+	margin-bottom: 500px;
 }
 nav ul li{
 	color: white;
@@ -108,7 +119,8 @@ button:hover{
 /* header-section-flèche */
 .section-flèche{
 	text-align: center;
-	margin-top: 250px;
+	margin-top: 550px;
+
 }
 /* header-section-flèche */
 
@@ -150,6 +162,7 @@ button:hover{
 	margin-left: 155px;
 	text-decoration: 0;
 	color: white;
+	font-size: 20px;
 }
 .batman-ennemis{
 	color: white;
@@ -252,105 +265,97 @@ figcaption{
 /*section-8 */
 
 /*section-9*/
-.section-9{
-	background-color: grey;
-	opacity: 0.7;
-	margin-top: 100px;
-	color: white;
+
+.reaction{
+	background-color: rgba(98, 109, 109, 0.468);
+	padding: 28px 0;
+	margin-bottom: 50px;
 }
-/*sous-section-1*/
-.prenon-contact{
+.from{
+	width: 50%;
+	margin: 0 auto;
+}
+.from input [type='radio']{
+	opacity: 0;
+
+}
+.from input [type='submit']{
+	background-image: linear-gradient(gray;rgb(171, 39, 39));
+}
+
+.hc{
 	text-align: center;
-	font-size: 30px;
-	color: white;
+	font-size: 35px;
+	margin-bottom: 35px;
 }
-.adress-mail .from input[type='mail']{
+.titre{
+	display: block;
+	margin: 20px 0;
+	
+}
+.from input[type='email']{
 	border-top: none;
 	border-right: none;
 	border-left: none;
-	border-top: none;
-	border-bottom: grey;
 	width: 80%;
 	background-color: transparent;
-
-
+	border-bottom: 2px solid rgb(120, 120, 120);
 }
-.adress-mail{
-	margin-left: 400px;
-	background-color: transparent;border-top: none;
+.pac{
+	display: block;
+	margin-left: 100px;
+}
+.icon{
+	transform: rotate(90deg);
+	text-align: center;
+	width: 20px; 
+}
+.news{
+	margin: 15px;
+	border-bottom: 2px solid rgb(120, 120, 120,)
+}
+.bord{
+	background-color: transparent;
+	border-top:none;
 	border-right: none;
-	border-left: none;
-	border-top: none;
-	border-bottom: grey;
-	width: 80%;
+	border-left-width: none;
+}
+::-webkit-input-placeholder{
+	color: #f8f184;
+	font-size: 15px;
 
 }
-.soulignement{
-	width: 400px;
-	height: 3px;
-}
-.input-mail{
-	width: 590px;
-	background-color: grey;
-}
-/*sous-section-1*/
-/*sous-section-2*/
-.sous-section-2{
-	margin-left: 400px;
-}
-.nouveau-lettre{
-	font-size: 30px;
-	margin-top: 90px;
-}
-/*sous-section-2*/
-/*sous-section-3*/
-.sous-section-3{
-	margin-left: 400px;
-}
-
-/*sous-section-3*/
-/*sous-section-4*/
-.sous-section-4{
-	margin-left: 400px;
-}
-.soulignement-choix button span{
-	width: 100px;
-	height: 25px;
+::-moz-input-placeholder{
+	color: #f8f184;
+	font-size: 15px;
 
 }
-.choix {
-	text-decoration: none;
-	text-align: center;
-	width: 100px;
-	height: 10px;
-	display: inline-flex;
-	justify-content: space-between;
+::-ms-input-placeholder{
+	color: #f8f184;
+	font-size: 15px;
+}
+::placeholder{
+	color: #f8f184;
+	font-size: 15px;
 
 }
-/*sous-section-4*/
-/*sous-section-5*/
-.sous-section-5{
-	margin-left: 5px;
+
+.btn-group label{
+	cursor: pointer;
+	border: 2px solid;
+	paddding: 10px;
+	-o-border-image: linear-gradient(69deg,rgb(210,201,201),rgb(0, 157,255))1;
+	font-size: 20px;
+}
+input[type='submit']{
+	display: block;
+	width: 230px;
+	margin:25px auto;
+	padding: 15px;
+	cursor: pointer;
+	background-color: linear-gradient(white,gray,red);
 
 }
-.soulignement-message{
-	width: 400px;
-	height: 3px;
-	color: white; 
-}
-
-/*sous-section-5*/
-/*sous-section-6*/
-.sous-section-6{
-	text-align: center;
-}
-.ajustement{
-	margin-top: 200px;
-	color: grey;
-}
-
-/*sous-section-6*/
-/*section-9*/
 
 /*footer */
 footer{
@@ -391,6 +396,33 @@ footer{
 }
 
 /*footer */
+@media (max-width: 900px;){
+	header{
+		padding: 10px;
+		margin: 15px;
+	}
+	h1{
+		font-size: 10px;
+	}
+	h2{
+		font-size: 8px;
+	}
+	h3{
+		font-size: 5px;
+	}
+	h6{
+		font-size: 2px;
+	}
+	main{
+		padding: 10px;
+		background-size: 20px;
+
+	}
+	footer{
+		padding: 10px;
+	}
+}
+
 
 
 
