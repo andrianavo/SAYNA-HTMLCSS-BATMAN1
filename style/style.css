@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2? family= Rajdhani:wght@300;400;500;600;700 & family= Space+Grotesk:wght@400;500 & display= échanger');
+@import url('https://fonts.googleapis.com/css2? famille= Rajdhani:wght@300;400;500;600;700 & display=swap');
 body{
 	background-color: black;
 	background-position: fixed;
 	font-family: Rajdhani, sans-cherif;
 	margin: 0;
-	padding: 0;
 	margin-right: 0;
 	margin-left: 0;
 	border-top: none;
@@ -13,9 +14,12 @@ body{
 	
 }
 main{
-	border: 10px;
-	border-color: red;
+	border: 1px solid grey;
+	border-width: 2px 2px 2px 2px;
+	border-bottom: none;
+	border-top: none;
 }
+
 
 /* header */
 
@@ -26,8 +30,19 @@ header{
 	border-width: 50px;
     
 }
+header .home:hover{
+	text-shadow: 3px;
+	color: #f8f184;
+}
 nav {
 	text-decoration: none;
+}
+h1{
+	font-family: 'Rajdhani'
+	font-size: 25px;
+}
+h4{
+	font-family: 'Rajdhani'
 }
 .nouveau-section{
 	background-image: url(../Illustrations/Bathome1.png);
@@ -49,6 +64,9 @@ nav {
 .logohome{
 	margin-top: -50px;
 }
+.logohome :hover{
+	background-color: red;
+}
 .home {
 	margin-left: 1000px;
 	margin-bottom: -90px;
@@ -66,7 +84,6 @@ nav {
 	flex-direction: column;
 	position: fixed;
 	text-decoration: none;
-
 }
 
 /* header-section-nav */
@@ -114,6 +131,7 @@ button:hover{
 	color: white;
 
 }
+
 /* header-section-boutton */
 
 /* header-section-flèche */
@@ -162,7 +180,7 @@ button:hover{
 	margin-left: 155px;
 	text-decoration: 0;
 	color: white;
-	font-size: 20px;
+	font-size: 30px;
 }
 .batman-ennemis{
 	color: white;
@@ -248,7 +266,9 @@ figcaption{
     opacity: 0.6;
     padding-left: 10px;
     padding-right: 20px;
-    text-align: justify;	
+    text-align: justify;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;  	
 }
 .action{
 	margin-left: -10px;
@@ -266,95 +286,104 @@ figcaption{
 
 /*section-9*/
 
-.reaction{
-	background-color: rgba(98, 109, 109, 0.468);
-	padding: 28px 0;
-	margin-bottom: 50px;
-}
-.from{
-	width: 50%;
-	margin: 0 auto;
-}
-.from input [type='radio']{
-	opacity: 0;
-
-}
-.from input [type='submit']{
-	background-image: linear-gradient(gray;rgb(171, 39, 39));
-}
-
-.hc{
-	text-align: center;
-	font-size: 35px;
-	margin-bottom: 35px;
-}
-.titre{
-	display: block;
-	margin: 20px 0;
+#contact{
+	background-color: darkslategrey;
+	padding: 70px 0;
+	color: white;
 	
 }
-.from input[type='email']{
+#contact .form{
+	width: 50%;
+	margin: 0 auto;
+
+}
+#contact .hd{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 32px;
+}
+#contact .titre{
+	display: block;
+	margin: 28px 0;
+}
+#contact .form input[type='email'], textarea{
+	display: block;
 	border-top: none;
 	border-right: none;
 	border-left: none;
 	width: 80%;
+	border-bottom: 2px solid rgb(120, 120, 120);
 	background-color: transparent;
+	padding-top: 10px 0;
+	margin-top:  22px; 
+}
+#contact .form .icon img{
+	transform: rotate(90deg);
+	width: 22px;
+	margin-left: 680px;
+	margin-top: -100px;
+}
+#contact .fréquence{
+	margin-bottom: -5px;
+	margin-top: -35px;
 	border-bottom: 2px solid rgb(120, 120, 120);
 }
-.pac{
-	display: block;
-	margin-left: 100px;
+#contact .case{
+	font-size: 20px;
+
 }
-.icon{
-	transform: rotate(90deg);
-	text-align: center;
-	width: 20px; 
+#contact .news{
+	margin: 15px 0;
+	border-bottom: 2px solid rgb(120, 120, 120);
 }
-.news{
-	margin: 15px;
-	border-bottom: 2px solid rgb(120, 120, 120,)
-}
-.bord{
-	background-color: transparent;
-	border-top:none;
-	border-right: none;
-	border-left-width: none;
-}
+
 ::-webkit-input-placeholder{
 	color: #f8f184;
 	font-size: 15px;
-
 }
-::-moz-input-placeholder{
+::-moz-placeholder{
 	color: #f8f184;
 	font-size: 15px;
-
 }
 ::-ms-input-placeholder{
 	color: #f8f184;
 	font-size: 15px;
 }
+::-ms-input-placeholder{
+}
 ::placeholder{
 	color: #f8f184;
 	font-size: 15px;
-
 }
-
-.btn-group label{
+.form input[type='radio']{
+	opacity: 0;
+}
+.btn-groupe{
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.btn-groupe label{
 	cursor: pointer;
+	padding: 20px;
 	border: 2px solid;
-	paddding: 10px;
-	-o-border-image: linear-gradient(69deg,rgb(210,201,201),rgb(0, 157,255))1;
-	font-size: 20px;
+	border-color: white;
+	  -o-border-image: ;
+	  border-image: linear-gradient(69deg,red,blue) 1;
+	  font-size: 22px;
+}
+.btn-groupe :hover{
+	text-shadow: 5px;
+	color: red;
 }
 input[type='submit']{
 	display: block;
+	height: 50px;
 	width: 230px;
-	margin:25px auto;
-	padding: 15px;
+	margin: 25px auto;
 	cursor: pointer;
-	background-color: linear-gradient(white,gray,red);
-
+	background-image: linear-gradient(80deg,#eddebf,#890008);
+	border: none;
 }
 
 /*footer */
@@ -396,32 +425,6 @@ footer{
 }
 
 /*footer */
-@media (max-width: 900px;){
-	header{
-		padding: 10px;
-		margin: 15px;
-	}
-	h1{
-		font-size: 10px;
-	}
-	h2{
-		font-size: 8px;
-	}
-	h3{
-		font-size: 5px;
-	}
-	h6{
-		font-size: 2px;
-	}
-	main{
-		padding: 10px;
-		background-size: 20px;
-
-	}
-	footer{
-		padding: 10px;
-	}
-}
 
 
 
